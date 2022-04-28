@@ -14,7 +14,7 @@ public class RegularRestaurant : RestaurantFactory
     private static readonly string[] Salads =
     {
         "Салат \"Цезарь\" с мраморной говядиной",
-        "Салат \"Сельд под шубой\" с креветками из мраморной говядины"
+        "Салат \"Сельдь под шубой\" с креветками из мраморной говядины"
     };
     private static (string, string) GetCurrentLunchMenu()
     {

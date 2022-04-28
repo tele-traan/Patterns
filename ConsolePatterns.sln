@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{4DBB1B01-6AB5-4A86-843C-761BA74F88F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{5A0841E7-7DC4-4E48-951F-E909B5C7DB18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{DEBAF529-FA81-40FB-97A1-467F8090770B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{4DBB1B01-6AB5-4A86-843C-761BA74F88F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DBB1B01-6AB5-4A86-843C-761BA74F88F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DBB1B01-6AB5-4A86-843C-761BA74F88F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0841E7-7DC4-4E48-951F-E909B5C7DB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0841E7-7DC4-4E48-951F-E909B5C7DB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0841E7-7DC4-4E48-951F-E909B5C7DB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0841E7-7DC4-4E48-951F-E909B5C7DB18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEBAF529-FA81-40FB-97A1-467F8090770B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBAF529-FA81-40FB-97A1-467F8090770B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBAF529-FA81-40FB-97A1-467F8090770B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBAF529-FA81-40FB-97A1-467F8090770B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

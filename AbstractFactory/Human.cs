@@ -26,19 +26,23 @@ public class Human
     public void EatExpensiveDish(ExpensiveDish dish)
     {
         Console.WriteLine($"{Name} ест достаточно дорогой {dish.DishName}");
-        if (dish is HugePizza p)
+        switch (dish)
         {
-            Console.WriteLine($"Эту пиццу разделили на {p.SlicesAmount} кусков");
-        }
-
-        if (dish is MarbleBeefSalad s)
-        {
-            Console.WriteLine($"Уровень прожарки мяса в этом салате: {s.DonenessLevel}");
+            case HugePizza p:
+                Console.WriteLine($"Эту пиццу разделили на {p.SlicesAmount} кусков");
+                break;
+            case MarbleBeefSalad s:
+                Console.WriteLine($"Уровень прожарки мяса в этом салате: {s.DonenessLevel}");
+                break;
         }
 
         if (dish.IsPoorlyCooked)
         {
-            Console.WriteLine("К сожалению, повар плохо приготовил это блюдо");
+            Console.WriteLine("К сожалению, повар плохо приготовил это блюдо :(");
+        }
+        else
+        {
+            Console.WriteLine("К счастью, повар прекрасно справился с приготовлением этого блюда!");
         }
     }
 }
