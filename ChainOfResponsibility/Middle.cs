@@ -11,7 +11,7 @@ public class Middle : TaskChecker
         }
         else
         {
-            Console.WriteLine("Миддл недостаточно квалифицирован чтобы проверять такие задачки.");
+            Console.WriteLine("Миддл недостаточно квалифицирован, чтобы проверять такие задачки.");
             Console.WriteLine("Он попросил работника выше грейдом сделать это за него.\n");
             Next?.HandleTaskChecking(task);
         }
