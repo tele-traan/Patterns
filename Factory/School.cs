@@ -2,8 +2,8 @@
 
 public abstract class School
 {
-    public string SchoolName { get; set; }
-    public School(string name)
+    protected string SchoolName { get; }
+    protected School(string name)
     {
         SchoolName = name;
     }
